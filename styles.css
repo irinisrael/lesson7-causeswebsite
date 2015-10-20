@@ -1,0 +1,119 @@
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+font-family: verdana, sans-serif;
+font-size: 40px;
+color: darkgreen;
+text-align: center;	
+}
+
+.menu {
+font-family: verdana,sans-serif;
+font-size: 16px;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+
+h2 {
+font-family: verdana, sans-serif;
+font-size: 30px;
+color: darkgreen;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+p{
+	font-family: verdana, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#footer{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.mission{
+	width: 259px;
+	height: 194px;
+}
+
+.columns{
+width: 46%;
+padding: 1%;
+margin: 1;
+}
+
+#column1{
+float: left;
+clear: left;
+}
+
+#column2{
+	float: left;
+	clear: right;
+}
+
+#training{
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#volunteer{
+	float: left;
+	clear: right;
+	margin-top: 70px;
+	margin-bottom: 110px;
+	margin-left: 10px;
+}
+
+#gethelp{
+	float: left;
+	clear: right;
+	margin-top: 70px;
+	margin-right: 10px;
+}
+
+li{
+	padding-top: 10px;
+}
+
+#volunteerphotos{
+	width: 100%;
+}
+
+#cactusphoto{
+	height: 100%;
+	margin-left: 25%;
+	margin-bottom: 35px;
+}
+
+blockquote{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 75px;
+}
+
+.text-input{
+	padding: 5px;
+	color: #999999;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	background-color: #EEEEEE;
+	border: 2px solid #CCCCCC;
+	border-radius: 4px;
+}
+
+.text-input:focus{
+	color: black;
+}
