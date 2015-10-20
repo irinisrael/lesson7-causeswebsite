@@ -1,31 +1,30 @@
 #container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
-font-family: verdana, sans-serif;
-font-size: 40px;
-color: darkgreen;
-text-align: center;	
+	font-family: verdana, sans-serif;
+	font-size: 40px;
+	color: darkgreen;
+	text-align: center;	
 }
 
 .menu {
-font-family: verdana,sans-serif;
-font-size: 16px;
-text-align: center;
-padding-top: 25px;
-padding-bottom: 25px;
-
+	font-family: verdana,sans-serif;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 h2 {
-font-family: verdana, sans-serif;
-font-size: 30px;
-color: darkgreen;
-text-align: center;
-padding-top: 25px;
-padding-bottom: 25px;
+	font-family: verdana, sans-serif;
+	font-size: 30px;
+	color: darkgreen;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 a:link{
@@ -49,14 +48,14 @@ p{
 }
 
 .columns{
-width: 46%;
-padding: 1%;
-margin: 1;
+	width: 46%;
+	padding: 1%;
+	margin: 1;
 }
 
 #column1{
-float: left;
-clear: left;
+	float: left;
+	clear: left;
 }
 
 #column2{
