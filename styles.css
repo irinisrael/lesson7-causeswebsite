@@ -27,48 +27,52 @@ h2 {
 	padding-bottom: 25px;
 }
 
-a:link{
+h3 {
+	padding-bottom: 25px;
+}
+
+a:link {
 	text-decoration: none;
 }
 
-p{
+p {
 	font-family: verdana, sans-serif;
 	font-size: 16px;
 	text-align: justify;
 }
 
-#footer{
+#footer {
 	text-align: center;
 	padding-top: 50px;
 }
 
-.mission{
+.mission {
 	width: 259px;
 	height: 194px;
 }
 
-.columns{
+.columns {
 	width: 46%;
 	padding: 1%;
 	margin: 1;
 }
 
-#column1{
+#column1 {
 	float: left;
 	clear: left;
 }
 
-#column2{
+#column2 {
 	float: left;
 	clear: right;
 }
 
-#training{
+#training {
 	width: 100%;
 	padding-bottom: 20px;
 }
 
-#volunteer{
+#volunteer {
 	float: left;
 	clear: right;
 	margin-top: 70px;
@@ -76,34 +80,36 @@ p{
 	margin-left: 10px;
 }
 
-#gethelp{
+#gethelp {
 	float: left;
 	clear: right;
 	margin-top: 70px;
 	margin-right: 10px;
 }
 
-li{
+li {
 	padding-top: 10px;
+	font-family: verdana, sans-serif;
 }
 
-#volunteerphotos{
+#volunteerphotos {
 	width: 100%;
 }
 
-#cactusphoto{
+#cactusphoto {
 	height: 100%;
 	margin-left: 25%;
 	margin-bottom: 35px;
 }
 
-blockquote{
+blockquote {
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 75px;
+	text-align: justify;
 }
 
-.text-input{
+.text-input {
 	padding: 5px;
 	color: #999999;
 	font-size: 14px;
@@ -113,6 +119,11 @@ blockquote{
 	border-radius: 4px;
 }
 
-.text-input:focus{
+.text-input:focus {
 	color: black;
+}
+
+form {
+	font-family: verdana, sans-serif;
+	font-size: 14px;
 }
