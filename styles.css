@@ -1,29 +1,51 @@
+body {
+	font-family: verdana, sans-serif;
+}
+
 #container {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 h1 {
-	font-family: verdana, sans-serif;
-	font-size: 40px;
+	font-family: Bradley Hand;
+	font-size: 60px;
 	color: darkgreen;
 	text-align: center;	
 }
 
+nav a{
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: darkgreen;
+}
+
+.title {
+	font-size: 35px;
+	font-weight: bold;
+	color: darkgreen;
+	text-align: center;
+	padding-bottom: 55px;
+}
+
 .menu {
-	font-family: verdana,sans-serif;
 	font-size: 16px;
 	text-align: center;
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 50px;
 }
 
 h2 {
-	font-family: verdana, sans-serif;
 	font-size: 30px;
 	color: darkgreen;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 35px;
 	padding-bottom: 25px;
 }
 
@@ -36,7 +58,6 @@ a:link {
 }
 
 p {
-	font-family: verdana, sans-serif;
 	font-size: 16px;
 	text-align: justify;
 }
@@ -52,9 +73,8 @@ p {
 }
 
 .columns {
-	width: 46%;
-	padding: 1%;
-	margin: 1;
+	width: 48%;
+	margin: 1%;
 }
 
 #column1 {
@@ -69,27 +89,26 @@ p {
 
 #training {
 	width: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+	padding-top: 25px;
 }
 
 #volunteer {
 	float: left;
-	clear: right;
-	margin-top: 70px;
-	margin-bottom: 110px;
-	margin-left: 10px;
+	clear: all;
+	margin-top: 50px;
+	margin-bottom: 125px;
+	margin-left: 8px;
 }
 
 #gethelp {
 	float: left;
 	clear: right;
-	margin-top: 70px;
-	margin-right: 10px;
+	margin-top: 75px;
 }
 
 li {
 	padding-top: 10px;
-	font-family: verdana, sans-serif;
 }
 
 #volunteerphotos {
@@ -103,7 +122,7 @@ li {
 }
 
 blockquote {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 75px;
 	text-align: justify;
@@ -113,7 +132,6 @@ blockquote {
 	padding: 5px;
 	color: #999999;
 	font-size: 14px;
-	font-family: verdana, sans-serif;
 	background-color: #EEEEEE;
 	border: 2px solid #CCCCCC;
 	border-radius: 4px;
@@ -124,6 +142,5 @@ blockquote {
 }
 
 form {
-	font-family: verdana, sans-serif;
 	font-size: 14px;
 }
