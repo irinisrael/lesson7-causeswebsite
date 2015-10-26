@@ -24,16 +24,11 @@ nav a{
 	font-family: Bradley Hand;
 	font-size: 20px;
 		color: darkgreen;
-
 }
 
 nav a:hover {
 	background-color: gray;
 	color: white;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-family: verdana, sans-serif;
-
 }
 
 .title {
@@ -105,7 +100,6 @@ p {
 	width: 100%;
 	padding-bottom: 40px;
 	padding-top: 25px;
-
 }
 
 #volunteer {
