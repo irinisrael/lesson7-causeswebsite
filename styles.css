@@ -1,5 +1,6 @@
 body {
 	font-family: verdana, sans-serif;
+	background: #d8d4d4;
 }
 
 #container {
@@ -8,6 +9,10 @@ body {
   margin: 0 auto;
 }
 
+.banner{
+	margin-top:25px;
+	margin-bottom: 15px;
+}
 h1 {
 	font-family: Bradley Hand;
 	font-size: 60px;
@@ -16,14 +21,19 @@ h1 {
 }
 
 nav a{
+	font-family: Bradley Hand;
+	font-size: 20px;
+		color: darkgreen;
+
+}
+
+nav a:hover {
 	background-color: gray;
 	color: white;
 	font-size: 20px;
 	text-transform: uppercase;
-}
+	font-family: verdana, sans-serif;
 
-nav a:hover {
-	color: darkgreen;
 }
 
 .title {
@@ -32,6 +42,7 @@ nav a:hover {
 	color: darkgreen;
 	text-align: center;
 	padding-bottom: 55px;
+	font-family: Bradley Hand;
 }
 
 .menu {
@@ -47,6 +58,7 @@ h2 {
 	text-align: center;
 	padding-top: 35px;
 	padding-bottom: 25px;
+	font-family: Bradley Hand;
 }
 
 h3 {
@@ -70,6 +82,8 @@ p {
 .mission {
 	width: 259px;
 	height: 194px;
+	border: 1px solid darkgreen;
+	margin: 0 auto;
 }
 
 .columns {
@@ -91,6 +105,7 @@ p {
 	width: 100%;
 	padding-bottom: 40px;
 	padding-top: 25px;
+
 }
 
 #volunteer {
@@ -113,12 +128,14 @@ li {
 
 #volunteerphotos {
 	width: 100%;
+	border: 1px solid darkgreen;
 }
 
 #cactusphoto {
 	height: 100%;
 	margin-left: 25%;
 	margin-bottom: 35px;
+	border: 1px solid darkgreen;
 }
 
 blockquote {
