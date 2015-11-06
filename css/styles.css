@@ -9,10 +9,11 @@ body {
   margin: 0 auto;
 }
 
-.banner{
+.banner {
 	margin-top:25px;
 	margin-bottom: 15px;
 }
+
 h1 {
 	font-family: Bradley Hand;
 	font-size: 60px;
@@ -20,10 +21,24 @@ h1 {
 	text-align: center;	
 }
 
-nav a{
+h2 {
+	font-size: 30px;
+	color: darkgreen;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	font-family: Bradley Hand;
+}
+
+h3 {
+	padding-bottom: 25px;
+}
+
+nav a {
 	font-family: Bradley Hand;
 	font-size: 20px;
-		color: darkgreen;
+	color: darkgreen;
+	padding: 8px;
 }
 
 nav a:hover {
@@ -47,19 +62,6 @@ nav a:hover {
 	padding-bottom: 50px;
 }
 
-h2 {
-	font-size: 30px;
-	color: darkgreen;
-	text-align: center;
-	padding-top: 35px;
-	padding-bottom: 25px;
-	font-family: Bradley Hand;
-}
-
-h3 {
-	padding-bottom: 25px;
-}
-
 a:link {
 	text-decoration: none;
 }
@@ -71,7 +73,7 @@ p {
 
 #footer {
 	text-align: center;
-	padding-top: 50px;
+	margin-top: 50px;
 }
 
 .mission {
@@ -154,4 +156,12 @@ blockquote {
 
 form {
 	font-size: 14px;
+}
+
+.pres-quote {
+	margin-bottom: 125px;
+}
+
+.vol-invite{
+	margin-bottom: 50px;
 }
